@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 cat > README.md <<'EOF'
 # AWS Employee Management Application
 
@@ -50,3 +51,7 @@ Currently, these components run on one EC2 instance. This is a learning deployme
 ```bash
 git clone https://github.com/kumaranpsk/aws-3tier-project
 cd aws-3tier-project
+=======
+# aws-3tier-project
+AWS-based Employee Management Application using Python Flask, Gunicorn, Nginx and EC2
+>>>>>>> origin/main
