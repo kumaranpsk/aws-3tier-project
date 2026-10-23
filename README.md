@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 cat > README.md <<'EOF'
 # AWS Employee Management Application
 
@@ -49,9 +48,27 @@ Currently, these components run on one EC2 instance. This is a learning deployme
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/kumaranpsk/aws-3tier-project
+git clone https://github.com/kumaranpsk/aws-3tier-project.git
 cd aws-3tier-project
-=======
-# aws-3tier-project
-AWS-based Employee Management Application using Python Flask, Gunicorn, Nginx and EC2
->>>>>>> origin/main
+```
+
+### 2. Create a virtual environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the application
+
+```bash
+python app.py
+```
+
+Open `http://127.0.0.1:5000` in your browser if the application is configured to listen on that address.
